@@ -71,7 +71,7 @@ class Quiz {
         fill("green")
 
         else
-        fill("black")
+        fill("red")
 
         textSize(28)
         text(allContestants[contest].name + ":" + allContestants[contest].answer, 360, position)
