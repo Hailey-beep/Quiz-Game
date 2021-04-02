@@ -50,7 +50,10 @@ class Quiz {
     //We have to call to the class and not the object we made.
     Contestant.getallContestantInfo();
     
+    
     if(allContestants !== undefined) {
+
+      //write code to add a note here
       textSize(20)
       fill("blue")
       text("NOTE: contestants that answered correctly are in green", 200, 230)
@@ -66,6 +69,8 @@ class Quiz {
         //if the answer for any of the contestants is correct answer make their name green, else make it red.
         //the variable contest contains all of the values within 
         if(correctAnswer === allContestants[contest].answer)
+
+        //write code to highlight contest who answered correctly
         fill("green")
 
         else
@@ -77,14 +82,8 @@ class Quiz {
 
       }
 
-    }
+    } 
 
-    //write condition to check if contestantInfor is not undefined
-
-    //write code to add a note here
-
-    //write code to highlight contest who answered correctly
-    
   }
 
 }
