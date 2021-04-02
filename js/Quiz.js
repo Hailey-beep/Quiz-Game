@@ -61,9 +61,6 @@ class Quiz {
 
       //loops through all the properties of each Contestant.
       for(var contest in allContestants) {
-        //this filters the variable contest to only the contestants in the game.
-        //the game works fine without it.
-        if(contest === "contestant" + contestant.index)
         var correctAnswer = "2"
 
         //if the answer for any of the contestants is correct answer make their name green, else make it red.
@@ -84,6 +81,7 @@ class Quiz {
 
     } 
 
+    
   }
 
 }
